@@ -1,0 +1,36 @@
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+   background-repeat: no-repeat;
+ background-image: url("https://thumbs.dreamstime.com/b/campo-de-flores-en-d%C3%ADa-cosmos-el-paisaje-verano-coloridas-plantadas-146064201.jpg")
+ 
+}
+div{
+    display:flex;
+    flex-flow:row wrap; /*http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/cssref/css3_pr_flex-flow.asp.html*/
+}
+.field,textarea{
+    border-radius: 10px;
+    margin: 0 ,9em  3em 0;
+    padding: .8em 3em;
+    border:7px solid purple;
+    line-height: 100%;
+    font:100% sans-serif;
+}
+.field{
+    flex: 1 0 40%;
+    width: 45%;
+    float: left;
+  flex-direction: row;
+}
+.textarea{
+    
+    flex: 1 0 90%;
+    width: 300px;
+}
+.botton{
+    padding: 15px;
+    border: 3px solid violet;
+    
+}
